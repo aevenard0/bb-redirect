@@ -1,0 +1,19 @@
+<html>
+
+<script>
+
+var lastCommit = "4d48836bfc7d0f17b1b8193f26e973ea8d9101e1";
+//https://bitbucket.org/bazando/api-documentation/src/22b1024681fd4695e4bff5c220b29e49b8694550/statistics/google-analytics.md
+
+
+var baseUrl = "https://bitbucket.org/bazando/api-documentation/src/"+lastCommit+"/";
+var url = document.URL;
+var tmp = url.split("url=");
+var finalUrl = baseUrl+tmp[1];
+//console.log(finalUrl);
+window.location = finalUrl;
+
+
+</script>
+
+</html>
